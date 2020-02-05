@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>GameEngine</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\PCStree\include;$(SolutionDir)dist\File\include;$(SolutionDir);$(SolutionDir)Box2D;$(SolutionDir)\src;$(SolutionDir)\..\..\..\reference\irrKlang 1.5\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <WarningVersion>
+      </WarningVersion>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Box2D\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2Collision.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2Distance.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Draw.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Math.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Settings.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Timer.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2Body.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2Island.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2World.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MotorJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="..\Box2D\Rope\b2Rope.cpp" />
+    <ClCompile Include="AzulStopWatch.cpp" />
+    <ClCompile Include="BigRedBird.cpp" />
+    <ClCompile Include="BlackBird.cpp" />
+    <ClCompile Include="BlueBird.cpp" />
+    <ClCompile Include="BoxModel.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraMan.cpp" />
+    <ClCompile Include="CircleModel.cpp" />
+    <ClCompile Include="Color.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CubeModel.cpp" />
+    <ClCompile Include="DebugOut.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObject2D.cpp" />
+    <ClCompile Include="GameObjectMan.cpp" />
+    <ClCompile Include="GameSortBucket.cpp" />
+    <ClCompile Include="GlassBlockLong.cpp" />
+    <ClCompile Include="GlassBlockMed.cpp" />
+    <ClCompile Include="GlassBlockShort.cpp" />
+    <ClCompile Include="GraphcisObject_Box.cpp" />
+    <ClCompile Include="GraphicsObject_Circle.cpp" />
+    <ClCompile Include="GraphicsObject_Tri.cpp" />
+    <ClCompile Include="GreenBird.cpp" />
+    <ClCompile Include="ImageMan.cpp" />
+    <ClCompile Include="ImageNode.cpp" />
+    <ClCompile Include="KingPig.cpp" />
+    <ClCompile Include="ModelMan.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="QueenPig.cpp" />
+    <ClCompile Include="RedBird.cpp" />
+    <ClCompile Include="ShaderMan.cpp" />
+    <ClCompile Include="ShaderNode.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TimerMan.cpp" />
+    <ClCompile Include="Timer_win32.cpp" />
+    <ClCompile Include="TriModel.cpp" />
+    <ClCompile Include="SpriteModel.cpp" />
+    <ClCompile Include="GraphicsObject.cpp" />
+    <ClCompile Include="GraphicsObject_ColorByPosition.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_FlatTexture.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Sprite.cpp" />
+    <ClCompile Include="GraphicsObject_TextureLight.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Wireframe.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureMan.cpp" />
+    <ClCompile Include="TextureNode.cpp" />
+    <ClCompile Include="TextureTGA.cpp" />
+    <ClCompile Include="Vect2D.cpp" />
+    <ClCompile Include="WhiteBird.cpp" />
+    <ClCompile Include="WoodBlockLong.cpp" />
+    <ClCompile Include="WoodBlockMed.cpp" />
+    <ClCompile Include="WoodBlockShort.cpp" />
+    <ClCompile Include="YellowBird.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Box2D\Box2D.h" />
+    <ClInclude Include="..\Box2D\Collision\b2BroadPhase.h" />
+    <ClInclude Include="..\Box2D\Collision\b2Collision.h" />
+    <ClInclude Include="..\Box2D\Collision\b2Distance.h" />
+    <ClInclude Include="..\Box2D\Collision\b2DynamicTree.h" />
+    <ClInclude Include="..\Box2D\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="..\Box2D\Common\b2BlockAllocator.h" />
+    <ClInclude Include="..\Box2D\Common\b2Draw.h" />
+    <ClInclude Include="..\Box2D\Common\b2GrowableStack.h" />
+    <ClInclude Include="..\Box2D\Common\b2Math.h" />
+    <ClInclude Include="..\Box2D\Common\b2Settings.h" />
+    <ClInclude Include="..\Box2D\Common\b2StackAllocator.h" />
+    <ClInclude Include="..\Box2D\Common\b2Timer.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2Body.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2Fixture.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2Island.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2World.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MotorJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="..\Box2D\Rope\b2Rope.h" />
+    <ClInclude Include="AzulHelper.h" />
+    <ClInclude Include="AzulStopWatch.h" />
+    <ClInclude Include="BigRedBird.h" />
+    <ClInclude Include="BlackBird.h" />
+    <ClInclude Include="BlueBird.h" />
+    <ClInclude Include="BoxModel.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraMan.h" />
+    <ClInclude Include="CircleModel.h" />
+    <ClInclude Include="Color.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CubeModel.h" />
+    <ClInclude Include="DebugOut.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="EnumBase.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObject2D.h" />
+    <ClInclude Include="GameObjectMan.h" />
+    <ClInclude Include="GameObjectName.h" />
+    <ClInclude Include="GameSortBucket.h" />
+    <ClInclude Include="GlassBlockLong.h" />
+    <ClInclude Include="GlassBlockMed.h" />
+    <ClInclude Include="GlassBlockShort.h" />
+    <ClInclude Include="GraphicsObject_Box.h" />
+    <ClInclude Include="GraphicsObject_Circle.h" />
+    <ClInclude Include="GraphicsObject_Tri.h" />
+    <ClInclude Include="GreenBird.h" />
+    <ClInclude Include="ImageMan.h" />
+    <ClInclude Include="ImageName.h" />
+    <ClInclude Include="ImageNode.h" />
+    <ClInclude Include="KingPig.h" />
+    <ClInclude Include="ModelMan.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="PixelToMeter.h" />
+    <ClInclude Include="QueenPig.h" />
+    <ClInclude Include="RedBird.h" />
+    <ClInclude Include="ShaderMan.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ShaderName.h" />
+    <ClInclude Include="ShaderNode.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TextureName.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TimerEvent.h" />
+    <ClInclude Include="TimerMan.h" />
+    <ClInclude Include="TriModel.h" />
+    <ClInclude Include="SpriteModel.h" />
+    <ClInclude Include="GraphicsObject.h" />
+    <ClInclude Include="GraphicsObject_ColorByPosition.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_FlatTexture.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Sprite.h" />
+    <ClInclude Include="GraphicsObject_TextureLight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Wireframe.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="LibrarySetup.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SpriteVBO.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureMan.h" />
+    <ClInclude Include="TextureNode.h" />
+    <ClInclude Include="TextureTGA.h" />
+    <ClInclude Include="Vect2D.h" />
+    <ClInclude Include="WhiteBird.h" />
+    <ClInclude Include="WoodBlockLong.h" />
+    <ClInclude Include="WoodBlockMed.h" />
+    <ClInclude Include="WoodBlockShort.h" />
+    <ClInclude Include="YellowBird.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Box2D.cd" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="GameObject.cd" />
+    <None Include="spriteLineRender.fs.glsl" />
+    <None Include="spriteLineRender.vs.glsl" />
+    <None Include="spriteTriRender.fs.glsl" />
+    <None Include="spriteTriRender.vs.glsl" />
+    <None Include="spriteRender.fs.glsl" />
+    <None Include="spriteRender.vs.glsl" />
+    <None Include="colorRender.fs.glsl" />
+    <None Include="colorRender.vs.glsl" />
+    <None Include="texturePointLightDiff.fs.glsl" />
+    <None Include="texturePointLightDiff.vs.glsl" />
+    <None Include="textureRender.fs.glsl" />
+    <None Include="textureRender.vs.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

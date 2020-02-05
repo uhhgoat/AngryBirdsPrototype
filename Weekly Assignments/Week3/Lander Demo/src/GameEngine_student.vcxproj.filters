@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Wireframe.cpp">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ColorByPosition.cpp">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_FlatTexture.cpp">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMan.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_TextureLight.cpp">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMan.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Sprite.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTGA.cpp">
+      <Filter>Texture\TGA</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMan.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureNode.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphcisObject_Box.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Circle.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="TriModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Tri.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect2D.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMan.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderNode.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMan.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageNode.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMan.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulStopWatch.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer_win32.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugOut.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSortBucket.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerMan.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>Game\GameObject2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2Collision.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2Distance.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Draw.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Math.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Settings.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Timer.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Body.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Island.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2World.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Rope\b2Rope.cpp">
+      <Filter>Box2D\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="BigRedBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassBlockLong.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassBlockMed.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassBlockShort.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowBird.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBlockLong.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBlockMed.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBlockShort.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="QueenPig.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="KingPig.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundBlock.cpp">
+      <Filter>Game\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="AngryContactListener.cpp">
+      <Filter>Game\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadResources.cpp">
+      <Filter>Game\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingBird.cpp">
+      <Filter>Game\Characters\Lander</Filter>
+    </ClCompile>
+    <ClCompile Include="Thruster.cpp">
+      <Filter>Game\Characters\Lander</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GraphicsObjects">
+      <UniqueIdentifier>{93a4850e-23b0-4751-919a-96abf0093cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{3159976d-7987-4883-a95f-6508fc51ad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9abb5a24-81e4-4f47-a978-4466abc83014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1a86f58b-730f-4ade-9ef5-a03955cc875d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\wireframe">
+      <UniqueIdentifier>{edb264bb-13cd-4b8d-b809-ab411085c148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\colorbyposition">
+      <UniqueIdentifier>{8235b035-db60-41a6-8f5e-1de62e225a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\flattexture">
+      <UniqueIdentifier>{e80262e2-0161-4071-b26e-d6bc78c8e0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{d1cdfaf2-940b-4c46-9007-5d89e201e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{15363e7a-295c-4bb1-920a-3bdaf0aa931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\textureLight">
+      <UniqueIdentifier>{afe14a77-dea2-4ef7-8fa4-f63c952c280f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{7dba583c-bcaf-425f-9e10-4d5717a93ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\sprite">
+      <UniqueIdentifier>{5d9a2ad9-1880-4d9f-821a-e1d2ce4371f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\TGA">
+      <UniqueIdentifier>{dacb1fc1-b34f-4bd5-aeb7-4312131d726f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8fce8581-cbf4-4032-aae7-6d5fb5877a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f9b3370b-9898-4201-9f5e-170bf279cea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{1f9f9fb1-fc42-402c-a423-a551f7de14d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Names">
+      <UniqueIdentifier>{09956f6d-f840-4aab-ba04-53f14e534213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{11a82bb0-489a-419a-b545-6b83a9433e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject2D">
+      <UniqueIdentifier>{d655b14e-0006-4a04-b0e1-c93d64cc7d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D">
+      <UniqueIdentifier>{4d97e827-2e0b-4c0a-82c8-f76dbcb3c2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Collision">
+      <UniqueIdentifier>{bf18c1e7-75b2-4ff6-bfb6-94ceacfbc45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Collision\Shapes">
+      <UniqueIdentifier>{6e07fc16-bd89-448f-8f8b-c9de9931a801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Common">
+      <UniqueIdentifier>{7796e383-253a-4b4e-bbd5-669412185710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics">
+      <UniqueIdentifier>{f76c8cc6-ac0c-4a1c-9154-2ad060f16406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{d0d34b12-7449-4a5f-867c-0cca35630047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{239eabd0-fd87-466a-b56f-baf99c6a89f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Rope">
+      <UniqueIdentifier>{040d0a87-4102-4e61-ac1b-4a3c748e053b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Diagrams">
+      <UniqueIdentifier>{e68b80e9-bc02-41f2-aba9-e0ebc29c4401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters">
+      <UniqueIdentifier>{73b490b4-e16e-4ee2-9e75-83dcd0bf217e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Blocks">
+      <UniqueIdentifier>{a1a88942-304f-4c18-843a-2d5b09528dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Resources">
+      <UniqueIdentifier>{b99cc6ea-1b51-4bb5-8d4e-4b4e869e562b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Events">
+      <UniqueIdentifier>{d6a4a2d4-d8bc-4ece-9fc8-12909c6d45a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters\Lander">
+      <UniqueIdentifier>{757fda56-11fa-419e-b4a4-3c6e29fc45d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Wireframe.h">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ColorByPosition.h">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_FlatTexture.h">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMan.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_TextureLight.h">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMan.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Sprite.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTGA.h">
+      <Filter>Texture\TGA</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMan.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureNode.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulHelper.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySetup.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOut.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteVBO.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Box.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Circle.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="TriModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Tri.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2D.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMan.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderNode.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMan.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageNode.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMan.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulStopWatch.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelToMeter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumBase.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSortBucket.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEvent.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerMan.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>Game\GameObject2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2BroadPhase.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2Collision.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2Distance.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2DynamicTree.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2BlockAllocator.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Draw.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2GrowableStack.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Math.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Settings.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2StackAllocator.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Timer.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Body.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Fixture.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Island.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2World.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Rope\b2Rope.h">
+      <Filter>Box2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Box2D.h">
+      <Filter>Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BigRedBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassBlockLong.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassBlockMed.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassBlockShort.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="YellowBird.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBlockLong.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBlockMed.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBlockShort.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="QueenPig.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="KingPig.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiFixtureObject.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundBlock.h">
+      <Filter>Game\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Game\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="AngryContactListener.h">
+      <Filter>Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterCategory.h">
+      <Filter>Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingBird.h">
+      <Filter>Game\Characters\Lander</Filter>
+    </ClInclude>
+    <ClInclude Include="Thruster.h">
+      <Filter>Game\Characters\Lander</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="colorRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="colorRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="textureRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="textureRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texturePointLightDiff.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texturePointLightDiff.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteLineRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteLineRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteTriRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteTriRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GameObject.cd" />
+    <None Include="Box2D.cd" />
+    <None Include="ClassDiagram.cd">
+      <Filter>Game\Diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

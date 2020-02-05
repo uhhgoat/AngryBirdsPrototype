@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GameObject2D" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject2D" Hidden="true" />
+      <Method Name="GetBody" Hidden="true" />
+      <Method Name="getGraphicsObject" Hidden="true" />
+      <Method Name="getGraphicsObject_Collision" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="MarkForDelete" Hidden="true" />
+      <Method Name="PhysicsUpdate" Hidden="true" />
+      <Method Name="privBuilder" Hidden="true" />
+      <Method Name="SetBody" Hidden="true" />
+      <Method Name="SetDebugSprite" Hidden="true" />
+      <Method Name="SetGameSprite" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="WorldUpdate" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="GameObject2D::DEBUG_SHAPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject2D.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>oAQQQRABBAARAgAAAABAAgkCEQZkAEAAACIEwAAEBEA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="b2ContactListener">
+    <Position X="3.75" Y="0.5" Width="4.25" />
+    <Members>
+      <Method Name="~b2ContactListener" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAABAAAAgAAAgAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2018spring_gam450\instructor\Week2\4 Contact Listeners\Box2D\Dynamics\b2WorldCallbacks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="b2Contact">
+    <Position X="2.25" Y="1.75" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="b2Contact::__unnamed_enum_0039_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2018spring_gam450\instructor\Week2\4 Contact Listeners\Box2D\Dynamics\Contacts\b2Contact.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAmUIAEVAUjAIUAUABkRAAEJAIVoAEAgBGAAACIA=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2018spring_gam450\instructor\Week2\4 Contact Listeners\Box2D\Dynamics\Contacts\b2Contact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="b2Manifold">
+    <Position X="6.75" Y="1.75" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="b2Manifold::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2018spring_gam450\instructor\Week2\4 Contact Listeners\Box2D\Collision\b2Collision.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAASAAEAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2018spring_gam450\instructor\Week2\4 Contact Listeners\Box2D\Collision\b2Collision.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="b2ContactCreateFcn" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2018spring_gam450\instructor\Week2\4 Contact Listeners\Box2D\Dynamics\Contacts\b2Contact.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

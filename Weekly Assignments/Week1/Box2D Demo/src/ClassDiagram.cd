@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GameObject2D">
+    <Position X="1.75" Y="1.5" Width="2" />
+    <Members>
+      <Method Name="~GameObject2D" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="GameObject2D" Hidden="true" />
+      <Method Name="GetDebugSprite" Hidden="true" />
+      <Method Name="GetGameSprite" Hidden="true" />
+      <Method Name="getGraphicsObject" Hidden="true" />
+      <Method Name="getGraphicsObject_Collision" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="MarkForDelete" Hidden="true" />
+      <Method Name="PhysicsUpdate" Hidden="true" />
+      <Method Name="privBuilder" Hidden="true" />
+      <Method Name="SetDebugColor" Hidden="true" />
+      <Method Name="SetDebugSprite" Hidden="true" />
+      <Method Name="SetDrawDebug" Hidden="true" />
+      <Method Name="SetDrawSprite" Hidden="true" />
+      <Method Name="SetGameSprite" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="WorldUpdate" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GameObject2D::DEBUG_SHAPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject2D.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>oAQQQRABBAARAgAAAABAAgkCEQZkAEAAACIEwAAEBEA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+      <Field Name="pBody" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject_Sprite" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAABAABABAAAgAAAAgAAQAAAAAAAQAAgCAQAAAAAAI=</HashCode>
+      <FileName>GraphicsObject_Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="b2Body" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="b2Body::__unnamed_enum_0026_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2017spring_gam450\instructor\2018 Week1\1 Box2D\Box2D\Dynamics\b2Body.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="m_fixtureList" Type="b2Fixture" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="2.5" />
+        <Point X="7.375" Y="2.5" />
+        <Point X="7.375" Y="2.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.06" Y="0.266" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>YSACMQ4YAuSADgDBFxJVgcAWcgIBAVsQEg0BAJRwMIM=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2017spring_gam450\instructor\2018 Week1\1 Box2D\Box2D\Dynamics\b2Body.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_fixtureList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Game">
+    <Position X="10" Y="1.5" Width="2" />
+    <Members>
+      <Method Name="~Game" Hidden="true" />
+      <Method Name="ClearBufferFunc" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="Game" Hidden="true" />
+      <Method Name="GetFrameTime" Hidden="true" />
+      <Method Name="GetTotalTime" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="LoadContent" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Run" Hidden="true" />
+      <Method Name="UnLoadContent" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="ptrInstance" Type="Game" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.667" Y="2.819" />
+        <Point X="10.667" Y="3.069" />
+        <Point X="11.5" Y="3.069" />
+        <Point X="11.5" Y="2.819" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.13" Y="0.31" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAQAEAAAYAJAAwAAAAAAEABAAAiAAAAAQAgoQAgAAAY=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pWorld" />
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="b2World" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QSDBDACMQEAVMEJSQQbAmFgqACgqQUAApBQCACghAKM=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2017spring_gam450\instructor\2018 Week1\1 Box2D\Box2D\Dynamics\b2World.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="b2Fixture">
+    <Position X="6.5" Y="2.75" Width="1.75" />
+    <Members>
+      <Field Name="m_body" Hidden="true" />
+      <Field Name="m_density" Hidden="true" />
+      <Field Name="m_filter" Hidden="true" />
+      <Field Name="m_friction" Hidden="true" />
+      <Field Name="m_isSensor" Hidden="true" />
+      <Field Name="m_next" Hidden="true" />
+      <Field Name="m_proxies" Hidden="true" />
+      <Field Name="m_proxyCount" Hidden="true" />
+      <Field Name="m_restitution" Hidden="true" />
+      <Field Name="m_shape" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQABQAAgEAEwAAUgQQwQAQAGBEEEMwJCABAAAhhAI=</HashCode>
+      <FileName>C:\Users\andre\Documents\Perforce Rep\aberthiaume_ABERTHIAUME2012_5344\berthiaume2017spring_gam450\instructor\2018 Week1\1 Box2D\Box2D\Dynamics\b2Fixture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

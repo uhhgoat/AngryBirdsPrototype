@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Game">
+    <Position X="4.75" Y="1.5" Width="2.25" />
+    <Members>
+      <Method Name="~Game" Hidden="true" />
+      <Method Name="ClearBufferFunc" Hidden="true" />
+      <Method Name="Game" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Run" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAQAEAAAQAJAAwAAAAAAEABAAAiAAAAAQAgoQAAAAAY=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameObject2D">
+    <Position X="8.25" Y="0.75" Width="2.5" />
+    <Members>
+      <Method Name="~GameObject2D" Hidden="true" />
+      <Field Name="DebugShape" Hidden="true" />
+      <Field Name="drawDebug" Hidden="true" />
+      <Field Name="drawSprite" Hidden="true" />
+      <Method Name="GameObject2D" Hidden="true" />
+      <Method Name="GetDebugSprite" Hidden="true" />
+      <Method Name="GetGameSprite" Hidden="true" />
+      <Method Name="getGraphicsObject" Hidden="true" />
+      <Method Name="getGraphicsObject_Collision" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="MarkForDelete" Hidden="true" />
+      <Field Name="origAngle" Hidden="true" />
+      <Field Name="origHeight" Hidden="true" />
+      <Field Name="origWidth" Hidden="true" />
+      <Method Name="privBuilder" Hidden="true" />
+      <Method Name="SetDebugColor" Hidden="true" />
+      <Method Name="SetDebugSprite" Hidden="true" />
+      <Method Name="SetDrawDebug" Hidden="true" />
+      <Method Name="SetDrawSprite" Hidden="true" />
+      <Method Name="SetGameSprite" Hidden="true" />
+      <Method Name="WorldUpdate" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="GameObject2D::DEBUG_SHAPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject2D.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAQQQAABBAARAgAAAABAAgkCEQZkAEAAACIEwAAEBEA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

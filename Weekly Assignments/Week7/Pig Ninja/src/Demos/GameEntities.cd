@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RedBird" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIAAAEAAAAEAAAAAAAAAAAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>Demos\RedBird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockWoodLong" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAQEAAAAAABAAAAAAAIAACgAAAAQAA=</HashCode>
+      <FileName>Demos\BlockWoodLong.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject2D" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAQQQRABBAARAgAAAABAAgkDEQZkAEAIACIEwAAEBEA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
